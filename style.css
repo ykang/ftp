@@ -1,0 +1,208 @@
+.book .book header h1 {
+  opacity: 1;
+  text-align: left;
+}
+
+#header .title {
+  margin: 0EM;
+  padding-left: 20px;
+  padding-bottom: 0em;
+  color: #732f46;
+  border-radius: 25px 25px 0px 0px;
+  border-bottom: 0px;
+  background: #cccccc;
+  font-size: 36pt;
+  line-height: 65px;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header .subtitle em {
+  font-style: normal;
+}
+
+#header .author {
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 0em;
+  color: #cccccc;
+  background: #732f46;
+  font-size: 18pt;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header .author em {
+  font-style: normal;
+}
+
+#header address {
+  font-style: normal;
+  border-radius: 0px 0px 25px 25px;
+  padding-left: 20px;
+  color: #cccccc;
+  background: #732f46;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book.font-family-0 {
+  font-family: 'Merriweather', Georgia, serif;
+}
+.book.font-family-1 {
+  font-family: 'Merriweather', "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book-body p.caption {
+  color: #333333;
+  background-color: #eeeeee;
+  padding-left: 20px;
+  font-size: 12pt;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal code, .book .book-body .page-wrapper .page-inner section.normal pre {
+    font-family: 'Hack', 'Source Code Pro', 'Courier New', 'Courier', monospace;
+}
+
+h1, h2 {
+  border-bottom: 2px solid #732f46;
+}
+
+h1, h2, h3, h4 {
+  color: #732f46;
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+color: #732f46;
+}
+
+dt {
+  color: #732f46;
+}
+
+dd {
+  margin-bottom: 12px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.book-body table {
+  background: #eeeeee;
+  border: 0px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table td, .book .book-body .page-wrapper .page-inner section.normal table th {
+  color: #333333;
+  border: 1px;
+  font-size: 11pt;
+  height: 15px;
+  padding: 0px 5px 0px 5px;
+  cellpadding="0";
+  cellspacing="0";
+  text-shadow: none;
+}
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table td {
+  color: #ddd;
+}
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal table th {
+  color: #222;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal th {
+  background: #d2b2b3;
+  font-weight: bold;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal blockquote {
+  quotes: none;
+  text-shadow: none;
+  background: #d2b2b3;
+  padding:  7px 20px 1px 20px;
+  color: #000000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-left: 0px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre {
+    background: #eeeeee;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 0px 5px 0px;
+}
+
+ol {
+  -webkit-padding-start: 0px;
+}
+
+.book .book-summary {
+  background-color: #732f46;
+}
+
+.book .book-summary ul.summary li a {
+  padding: 5px 5px 5px 5px;
+  color: #ddd;
+}
+
+.book .book-summary ul.summary li.active>a {
+  color: #edb621;
+}
+
+.book .book-summary ul.summary li a:hover {
+  background-color: #aaaaaa;
+  color: #732f46;
+}
+
+.book .book-summary .book-search {
+  color: #fff;
+}
+.book .book-summary .book-search input,
+.book .book-summary .book-search input:focus,
+.book .book-summary .book-search input:hover {
+  color: #edb621;
+}
+
+.book .book-header, .book .book-summary {
+    font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.btn:hover, .btn:focus, .btn.focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #536878;
+    border-color: #536878;
+    border-radius: 6px;
+}
+
+.btn {
+    padding: 9px 14px;
+    font-size: 19px;
+    font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+    border-radius: 6px;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #536878;
+    border-color: #536878;
+    border-radius: 6px;
+}
+
+.btn-lg, .btn-group-lg>.btn {
+    padding: 9px 14px;
+    font-size: 19px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+
+.table-wrapper {
+  overflow-x: scroll;
+}

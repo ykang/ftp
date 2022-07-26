@@ -1,0 +1,17 @@
+book_filename: "ftp"
+chapter_name: ''
+rmd_files: ["index.Rmd"
+ ,"01-introduction.Rmd"
+ ,"02-theory.Rmd"
+ ,"03-practice.Rmd"
+ ,"04-conclusion.Rmd"
+ ,"disclaimer.Rmd"
+ ,"acknowledgement.Rmd"
+ ,"acronyms.Rmd"
+ ,"software.Rmd"
+ ,"data.Rmd"
+ ,"references.Rmd"
+]
+before_chapter_script: ["before-each-chapter.R"]
+output_dir: "public"
+delete_merged_file: true

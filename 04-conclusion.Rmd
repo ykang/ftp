@@ -1,0 +1,115 @@
+Forecasting: benefits, practices, value, and limitations[^162] {#conclusions}
+==============================================================
+
+> Mr. Buffett said his advice for the cash left to his wife was that 10 per cent should go to short-term government bonds and 90 per cent into a very low-cost S\&P 500 index fund.
+
+
+
+
+The purpose of this unique article is to provide an encyclopedic
+knowledge about the various aspects of forecasting. In this article,
+there are more than 140 sections and subsections, with more than 2,100
+references, written by 80 of some of the best-known forecasting
+researchers and practitioners in the world, making it into a selective,
+encyclopedic piece covering, into a single source, a great deal of the
+available knowledge about the theory and practice of forecasting. We
+hope that this article will serve as an easy-to-use reference source. We
+aim to convert it into an online resource that will be regularly updated
+as new information becomes available.
+
+But some people argue if there is any value in attempting to predict the
+future and if forecasting is any different than fortune telling, given
+the large numbers of mistaken forecasts made in the past, including our
+inability to accurately predict the progression of COVID-19 and its
+economic and human consequences? What is, therefore, the usefulness of a
+paper like the present one when crystal balling is not possible, and
+uncertainty reigns? It is the aim of this concluding article to set the
+record straight, explaining the benefits and practical value of
+forecasting while reporting its limitations too.
+
+*The Myriad of Forecasts*: All planning and the great majority of
+decisions we make require forecasting. Deciding what time to get up in
+the morning, not to be late for work implies a correct prediction of the
+commuting time to go to the office. Determining what to study is another
+decision requiring elaborate predictions about the demand for future
+jobs decades away. In the business world, firms must decide/forecast how
+many products to manufacture, the price they should be sold, how much
+money to spend on advertising and promotion, how much and in what type
+of new technologies to invests and a plethora of other future-oriented
+decisions requiring both predictions and assessing their inevitable
+uncertainty. Whether we like it or not, we have no choice but making
+these forecasts to benefit as much as possible from their value, knowing
+perfectly well that all predictions are uncertain while some may turn
+out to be wrong.
+
+*The Pervasiveness of Uncertainty*: Apart from some areas of hard
+sciences, all other forecasts are uncertain and must be accompanied with
+a measure of its magnitude, expressed as a prediction interval, or as a
+probability distribution around the most likely forecast. Although the
+value and usage of forecasts is clear, that of uncertainty is not.
+Worse, it becomes an unwelcome source of anxiety whose usefulness is
+misunderstood. Executives want to know the exact sales of their firm for
+next month to set up their production schedule. Instead, they are given
+prediction intervals (PIs) around such forecast and told that most of
+the time, sales will be within this interval, assuming the fluctuations
+follow some distributional assumptions. They argue that forecasting must
+decrease, not amplify, uncertainty and that the PIs are too wide and
+'uninformative' to be used for making practical business decisions. The
+trouble is that these PIs are based on past fluctuations and present the
+best estimation of future uncertainty, even if they seem too wide.
+Worse, empirical research has shown that they are too narrow,
+underestimating uncertainty often considerably.
+
+*Assessing Uncertainty and Dealing with its Implied Risks*: Uncertainty
+entails risks, requiring action to minimise their negative consequences.
+There are two kinds of uncertainty that can be illustrated by a
+commuting example. The first relates to fluctuations in the commuting
+time under normal driving conditions when there are no serious
+accidents, road works or major snowstorms. Such fluctuations are small
+and can be captured by a normal curve that allows to balance the risk of
+arriving earlier or later than the desired time. In the opposite case,
+uncertainty is fat-tailed and hard to estimate, as delays can be
+substantial depending upon the seriousness of the accident or that of
+the snowstorm while the risk of being early to work is smaller than
+being late. Moreover, such risk is substantially different when going to
+the airport to catch a flight, requiring starting much earlier than the
+average time it takes to go to the airport to minimise the risk of
+missing the flight.
+
+*More Accurate Ways of Forecasting and Assessing Uncertainty*: Extensive
+empirical research, including forecasting competitions, has shown that
+systematic approaches improve the accuracy of forecasting and the
+correct assessment of uncertainty resulting in substantial benefits when
+compared to ad-hoc judgmental alternatives [@Makridakis2020foresight].
+The biggest advantage of such approaches is their ability to identify
+and estimate, in a mathematically optimal manner, past patterns and
+relationships that are subsequently extrapolated to predict their
+continuation, avoiding the over optimism and wishful thinking associated
+with judgmental approaches. At the same time, it must be clear that the
+accuracy of the forecasts and the correctness of uncertainty will depend
+on the established patterns/relationship not changing much during the
+forecasting period.
+
+*Using Benchmarks to Evaluate the Value of Forecasting*: The accuracy of
+the forecasts and the correct assessment of uncertainty must be judged
+not on their own but in comparison to some simple, readily available
+benchmarks. In stock market forecasts, for instance, the accuracy of
+predictions is compared to that of today's price used as the forecast
+for future periods. Empirical comparisons have shown that such a
+benchmark beats the great majority of professional forecasters, hence
+Buffet's advice in the epigram for his wife to invest in a low-cost
+index fund that selects stocks randomly. In weather forecasting,
+meteorologists are judged by the improvement of their forecasts over the
+naive prediction that tomorrow's weather will be the same as today.
+
+*Concluding remark*: Accepting the advantages and limitations of
+systematic forecasting methods and most importantly avoiding any
+exaggerated expectations of what it can achieve is critical. Such
+methods do not possess any prophetic powers, they simply extrapolate
+established patterns and relationships to predict the future and assess
+its uncertainty. Their biggest advantage is their objectivity and
+ability for optimal extrapolation. Their biggest disadvantages are:
+(*i*) the patterns and the relationships must remain fairly constant
+during the forecasting phase for the forecasts to be accurate, and
+(*ii*) uncertainty must not be fat-tailed so it can be measured
+quantitatively.

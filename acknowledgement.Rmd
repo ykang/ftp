@@ -1,0 +1,82 @@
+Acknowledgements {#acknowledgements .unnumbered}
+================
+
+Fotios Petropoulos would like to thank all the co-authors of this
+article for their very enthusiastic response and participation in this
+initiave. He would also like to thank Pierre Pinson for inviting this
+paper to be submitted to the *International Journal of Forecasting*. The
+constructive comments and suggestions from this advisory board were
+vital in improving the paper. He also thanks Artur Tarassow for offering
+a list of Gretl's software functionalities.
+
+Jakub Bijak's work received funding from the European Union's Horizon
+2020 research and innovation programme, grant 870299 QuantMig:
+Quantifying Migration Scenarios for Better Policy.
+
+Clara Cordeiro is partially financed by national funds through FCT --
+Fundação para a Ciência e a Tecnologia under the project
+UIDB/00006/2020.
+
+Fernando Luiz Cyrino Oliveira acknowledges the support of the
+Coordination for the Improvement of Higher Level Personnel (CAPES) --
+grant number 001, the Brazilian National Council for Scientific and
+Technological Development (CNPq) -- grant number 307403/2019-0, and the
+Carlos Chagas Filho Research Support Foundation of the State of Rio de
+Janeiro (FAPERJ) -- grant numbers 202.673/2018 and 211.086/2019.
+
+Shari De Baets was funded by the FWO Research Foundation Flanders.
+
+Joanne Ellison acknowledges the support of the ESRC FertilityTrends
+project (grant number ES/S009477/1) and the ESRC Centre for Population
+Change (grant number ES/R009139/1).
+
+Piotr Fiszeder was supported by the National Science Centre project
+number 2016/21/B/HS4/00662 entitled "Multivariate volatility models -
+the application of low and high prices".
+
+David T. Frazier has been supported by Australian Research Council (ARC)
+Discovery Grants DP170100729 and DP200101414, and ARC Early Career
+Researcher Award DE200101070.
+
+Mariangela Guidolin acknowledges the support of the University of Padua,
+Italy, through the grant BIRD188753/18.
+
+David F. Hendry gratefully acknowledges funding from the Robertson
+Foundation and Nuffield College.
+
+Yanfei Kang acknowledges the support of the National Natural Science
+Foundation of China (number 11701022) and the National Key Research and
+Development Program (number 2019YFB1404600).
+
+Stephan Kolassa would like to thank Tilmann Gneiting for some very
+helpful tips.
+
+Gael M. Martin has been supported by Australian Research Council (ARC)
+Discovery Grants DP170100729 and DP200101414.
+
+Alessia Paccagnini acknowledges the research support by COST Action
+"Fintech and Artificial Intelligence in Finance - Towards a transparent
+financial industry" (FinAI) CA19130.
+
+Jose M. Pavía acknowledges the support of the Spanish Ministry of
+Science, Innovation and Universities and the Spanish Agency of Research,
+co-funded with FEDER funds, grant ECO2017-87245-R, and of Consellería
+d'Innovació, Universitats, Ciència i Societat Digital, Generalitat
+Valenciana -- grant number AICO/2019/053.
+
+Diego J. Pedregal and Juan Ramon Trapero Arenas acknowledge the support
+of the European Regional Development Fund and Junta de Comunidades de
+Castilla-La Mancha (JCCM/FEDER, UE) under the project
+SBPLY/19/180501/000151 and by the Vicerrectorado de Investigación y
+Política Científica from UCLM through the research group fund program
+PREDILAB; DOCM 26/02/2020 [2020-GRIN-28770].
+
+David E. Rapach thanks Ilias Filippou and Guofu Zhou for valuable
+comments.
+
+J. James Reade and Han Lin Shang acknowledge Shixuan Wang for his
+constructive comments.
+
+Michał Rubaszek is thankful for the financial support provided by the
+National Science Centre, grant No. 2019/33/B/HS4/01923 entitled
+"Predictive content of equilibrium exchange rate models".

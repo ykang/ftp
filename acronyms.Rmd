@@ -1,0 +1,260 @@
+Appendix A. List of acronyms {#acronyms .unnumbered}
+================
+
+ABC: Approximate Bayesian Computation\
+ACC: Ant Colony Clustering\
+ACD: Autoregressive Conditional Duration\
+ADIDA: Aggregate--Disaggregate Intermittent Demand Approach\
+ADL: Autoregressive Distributed Lag\
+ADMM: Alternating Direction Method of Multipliers\
+AI: Artificial Intelligence\
+AIC: Akaike's Information Criterion\
+AICc: Akaike's Information Criterion corrected (for small sample sizes)\
+ANACONDA: Analysis of National Causes of Death for Action\
+ANFIS: Adaptive Neuro-Fuzzy Inference System\
+ANN: Artificial Neural Network\
+AO: Additive Outlier\
+AR: AutoRegressive (model)\
+ARX: AutoRegressive with eXogenous variables (model)\
+ARCH: AutoRegressive Conditional Heteroskedasticity\
+ARMA: AutoRegressive-Moving Average (model)\
+ARIMA: AutoRegressive Integrated Moving Average (model)\
+ARIMAX: AutoRegressive Integrated Moving Average with eXogenous
+variables (model)\
+B&M: Brick and Mortar\
+BATS: Box-Cox transform, ARMA errors, Trend, and Seasonal components
+(model)\
+BEER: Behavioural Equilibrium Exchange Rate\
+BEKK: Baba-Engle-Kraft-Kroner GARCH\
+BEKK-HL: BEKK High Low\
+BIC: Bayesian Information Criterion\
+BLAST: Building Loads Analysis and System Thermodynamics\
+BM: Bass Model\
+BMC: Bootstrap Model Combination\
+BPNN: Back-Propagation Neural Network\
+CARGPR: Conditional AutoRegressive Geometric Process Range (model)\
+CARR: Conditional AutoRegressive Range (model)\
+CARRS: Conditional AutoRegressive Rogers and Satchell (model)\
+CBC: Choice Based Conjoint (analysis)\
+CBO: Congressional Budget Office\
+CDS: Credit Default Swap\
+CNN: Convolutional Neural Network\
+COVID-19: Coronavirus disease 2019\
+CVAR: Cointegrated Vector AutoRegressive (model)\
+CAViaR: Conditional AutoRegressive Value At Risk\
+CL: Cross Learning\
+CPFR: Collaborative Planning, Forecasting, and Replenishment\
+CRCD: Competition and Regime Change Diachronic (model)\
+CRPS: Continuous Ranked Probability Score CSR: Complete Subset
+Regression\
+CV: Cross-Validation\
+DA: Deterministic Annealing\
+DC: Distribution Centre\
+DCC: Dynamic Conditional Correlation\
+DCC-RGARCH: Range GARCH DCC\
+DFM: Dynamic Factor Model\
+DGP: Data Generating Process\
+DJI: Dow Jones Industrial DM: Diebold-Mariano (test)\
+DSGE: Dynamic Stochastic General Equilibrium\
+DSHW: Double Seasonal Holt-Winters\
+DSTCC-CARR: Double Smooth Transition Conditional Correlation CARR\
+DT: Delay Time\
+EEG: ElectroEncephaloGram\
+EGARCH: Exponential GARCH\
+EH: Expectations Hypothesis\
+EMD: Empirical Mode Decomposition\
+ENet: Elastic Net\
+ENSO: El Niño Southern Oscillation\
+ERCOT: Electric Reliability Council of Texas\
+ES: Expected Shortfall\
+ESP-r: Environmental Systems Performance -- research\
+ESTAR: Exponential STAR ETS: ExponenTial Smoothing (or Error, Trend,
+Seasonality)\
+EVT: Extreme Value Theory\
+EWMA: Exponentially Weighted Moving Average\
+FAR: Functional AutoRegressive (model)\
+FASSTER: Forecasting with Additive Switching of Seasonality, Trend and
+Exogenous Regressors\
+FCM: Fuzzy C-Means\
+FIGARCH: Fractionally Integrated GARCH\
+FIS: Fuzzy Inference System\
+FFNN: Feed-Forward Neural Network\
+FFORMA: Feature-based FORecast Model Averaging\
+FMCG: Fast Moving Consumer Goods\
+FPCA: Functional Principal Component Analysis\
+FRB/EDO: Federal Reserve Board's Estimated, Dynamic, Optimisation-based
+(model)\
+FSS: Forecasting Support System\
+FVA: Forecast Value Added\
+GARCH: General AutoRegressive Conditional Heteroscedasticity\
+GARCH-PARK-R: GARCH PARKinson Range\
+GARCH-TR: GARCH True Range\
+GB: Givon-Bass (model)\
+GBM: Generalised Bass Model\
+GDP: Gross Domestic Product\
+GGM: Guseo-Guidolin Model (GGM)\
+GJR-GARCH: Glosten-Jagannathan-Runkle GARCH\
+GM: Generalised M-estimator\
+GMM: Generalised Methods of Moments\
+GPU: Graphics Processing Unit\
+GRNN: Generalised Regression Neural Network\
+HAR: Heterogeneous AutoRegressive (model)\
+HDFS: Hadoop Distributed File System\
+HMD: Human Mortality Database\
+HP: Hodrick-Prescott\
+HPU: House Price Uncertainty\
+HVAC: Heating, Ventilation, and Air Conditioning (system)\
+HAR: Heterogeneous AutoRegressive (model)\
+HQ: Hannan-Quinn\
+IEA: International Energy Agency\
+IG: Interaction Groups\
+iid: independent and identically distributed\
+IIS: Impulse Indicator Saturation\
+IO: Innovation Outlier\
+IT: Information Technology\
+KBKD: Krishnan-Bass-Kummar Diachronic (model)\
+KISS: Keep It Simple, Stupid (principle)\
+$k$NN: $k$ Nearest Neighbours\
+KPSS: Kwiatkowski--Phillips--Schmidt--Shin\
+L-IVaR: Liquidity-adjusted Intraday Value-at-Risk\
+LASSO: Least Absolute Shrinkage and Selection Operator\
+LH: Low and High\
+LLN: Law of Large Numbers\
+LN-CASS: Logit-Normal Continuous Analogue of the Spike-and-Slab\
+LS (or LPS): Logarithmic (Predictive) Score (log-score)\
+LSTAR: Logistic STAR\
+LSTM: Long Short-Term Memory Networks\
+LTLF: Long-Term Load Forecasting\
+LV: Lotka-Volterra (model)\
+LVac: Lotka-Volterra with asymmetric churn (model)\
+LVch: Lotka-Volterra with churn (model)\
+MAE: Mean Absolute Error\
+MAPE: Mean Absolute Percentage Error\
+MASE: Mean Absolute Scaled Error\
+MCMC: Markov Chain Monte Carlo\
+MFI: Marginal Forecast Interval\
+MICE: Meetings, Incentives, Conventions, and Exhibitions/Events MIDAS:
+MIxed DAta Sampling\
+MJO: Madden Julian Oscillation\
+ML: Machine Learning\
+MLP: MultiLayer forward Perceptron\
+MLR: Multiple Linear Regression\
+MS: Markov Switching\
+MS VAR: Markov Switching VAR\
+MSARIMA: Multiple/Multiplicative Seasonal ARIMA\
+MSC: Multiple Seasonal Cycles\
+MSE: Mean Squared Error\
+MSRB: Markov-Switching Range-Based\
+MTA: Multiple Temporal Aggregation\
+MTLF: Medium-Term Load Forecasting\
+NAO: North Atlantic Oscillation\
+NLS: Nonlinear Least Squares\
+NLTK: Natural Language Toolkit\
+NMAE: Normalised Mean Absolute Error\
+NN: Neural Network\
+NNAR: Neural Network AutoRegressive\
+NOB: Non-Overlapping Blocks\
+NPF: New Product Forecasting\
+NWP: Numerical Weather Prediction\
+OB: Overlapping Blocks\
+OBR: Office for Budget Responsibility\
+ODE: Ordinary Differential Equations\
+OLS: Ordinary Least Squares\
+OWA: Overall Weighted Average\
+PAR: Periodic AutoRegressive (model)\
+PCA: Principal Components Analysis\
+pdf: probability density function\
+PdM: Predictive Maintenance\
+PFEM: Point Forecast Error Measure\
+PHANN: Physical Hybrid Artificial Neural Network\
+pHDR: predictive Highest Density Region\
+PI: Prediction Interval\
+PIT: Probability Integral Transform\
+PL: Product Level\
+PLS: Partial Least Squares\
+PM: Particulate Matter\
+POT: Peak Over Threshold\
+PPP: Purchasing Power Parity\
+PSO: Particle Swarm Intelligence\
+PV: PhotoVoltaic\
+$Q_\alpha$: quantile score or pinball loss for a level
+$\alpha \in (0, 1)$\
+RAF: Royal Air Force (UK)\
+RB: Range-Based\
+RB-copula: Range-Based copula\
+RB-DCC: Range-Based DCC\
+RB-MS-DCC: Range-Based Markov-Switching DCC\
+RBF: Radial Basis Function\
+REGARCH: Range-Based Exponential GARCH\
+RET: Renewable Energy Technology\
+RGARCH: Range GARCH\
+RMSE: Root Mean Squared Error\
+RNN: Recurrent Neural Network\
+RR-HGADCC: Return and Range Heterogeneous General Asymmetric DCC\
+RTV: Real Time Vintage\
+SA: Structured Analogies\
+SARIMA: Seasonal AutoRegressive Integrated Moving Average (model)\
+SARIMAX: Seasonal AutoRegressive Integrated Moving Average with
+eXogenous variables\
+SARMA: Seasonal AutoRegressive Moving Average (model)\
+SARMAX: Seasonal AutoRegressive Moving Average with eXogenous variables\
+SBA: Syntetos-Boylan Approximation\
+SBC: Syntetos-Boylan-Croston (classification)\
+SEATS: Seasonal Extraction in ARIMA Time Series\
+SES: Simple (or Single) Exponential Smoothing\
+SETAR: Self-Exciting Threshold AutoRegressive (model)\
+SFI: Simultaneous Forecast Interval\
+SKU: Stock Keeping Unit\
+SGD: Stochastic Gradient Descent\
+SIS: Step Indicator Saturation\
+SL: Serial number Level\
+SMA: Simple Moving Average\
+sMAPE: symmetric Mean Absolute Percentage Error\
+SOM: Self-Organising Map\
+SS: State Space\
+sSA: semi-Structured Analogies\
+SSARIMA: Several Seasonalities (or State Space) ARIMA\
+STAR: Smooth Transition AutoRegressive (model)\
+STARR: Smooth Transition conditional AutoRegressive Range (model)\
+STL: Seasonal Trend decomposition using Loess\
+STLF: Short-Term Load Forecasting\
+STR: Seasonal-Trend decomposition based on Regression\
+SV: Stochastic Volatility\
+SVA: Stochastic Value Added\
+SVD: Singular Value Decomposition\
+SVM: Support Vector Machine\
+SWAN: Simulating WAves Nearshore\
+S&OP: Sales and Operations Planning\
+S&P: Standard & Poor's\
+TAR: Threshold AutoRegressive (model)\
+TARMA: Threshold AutoRegressive Moving Average (model) TARMASE:
+Threshold AutoRegressive Moving Average (model)\
+TARR: Range-Based Threshold conditional AutoRegressive (model)\
+TBATS: Exponential Smoothing state space model with Box-Cox
+transformation, ARMA errors, Trend and Seasonal components\
+TFR: Total Fertility Rate\
+TGARCH: Threshold GARCH\
+TMA: Threshold Moving Average (model)\
+TPU: Tensor Processing Unit\
+TRAMO: Time series Regression with ARIMA noise, Missing values and
+Outliers\
+TSB: Teunter-Syntetos-Babai (method)\
+UCRCD: Unbalanced Competition and Regime Change Diachronic (model)\
+UIP: Uncovered Interest Party\
+VaR: Value at Risk\
+VAR: Vector AutoRegressive (model)\
+VARX: VAR with eXogenous variables (model)\
+VARMA: Vector AutoRegressive Moving Average (model)\
+VAT: Value Added Tax\
+VARIMAX: Vector AutoRegressive Integrated Moving Average with eXogenous
+variables (model)\
+VECM (or VEC): Vector Error Correction Model\
+VEqCM: Vector Equilibrium-Correction Model\
+VSTLF: Very Short-Term Load Forecasting\
+WLS: Weighted Least Squares\
+WNN: Wavelet Neural Network\
+WOM: Word-Of-Mouth\
+WW2: World War 1\
+WW2: World War 2\
+WW3: World War 3\
+XGBoost: eXtreme Gradient Boosting\

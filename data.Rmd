@@ -1,0 +1,473 @@
+Appendix C. Data sets {#datasets .unnumbered}
+=========
+
+
+Table A.2: A list of indicative publicly available data sets.
+
+<div class="table-wrapper" markdown="block">
+::: {#tab:datasets}
+  **Related section**                                                                                                                                                                                                             **Description**                                                                                                                                                                    **Link**
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------
+  §[2.7.9](#Deep_Probabilistic_Forecasting_models){reference-type="ref" reference="Deep_Probabilistic_Forecasting_models"}. Deep Probabilistic Models                                                                                       Data for wikipedia page views, Dominicks retail, electricity consumption, traffic lane occupation.                                                                                 <https://gluon-ts.mxnet.io/api/gluonts/gluonts.dataset.repository.datasets.html>
+  §[2.9.3](#Text_based_forecasting){reference-type="ref" reference="Text_based_forecasting"}. Forecasting with text Information                                                                                                                            Movie reviews data provided by the Stanford NLP group.                                                                                                                             <https://nlp.stanford.edu/sentiment/code.html>
+  §[2.10.4](#ecological_inference_forecasting){reference-type="ref" reference="ecological_inference_forecasting"}. Ecological inference forecasting                                                                               Party registration in South-East North Carolina (eiPack R package).                                                                                                                <https://www2.ncleg.net/RnR/Redistricting/BaseData2001>
+                                                                                                                                                                                                                                  ei.Datasets: Real Datasets for Assessing Ecological Inference Algorithms.                                                                                                          <https://cran.csiro.au/web/packages/ei.Datasets/index.html>
+  §[2.12.7](#Forecasting_competitions){reference-type="ref" reference="Forecasting_competitions"}. Forecasting competitions                                                                                                       Data for the M, M2, M3 and M4 forecasting competitions.                                                                                                                            <https://forecasters.org/resources/time-series-data/>
+                                                                                                                                                                                                                                  Time Series Competition Data (R package)                                                                                                                                           <https://github.com/robjhyndman/tscompdata>
+                                                                                                                                                                                                                                  Mcomp: Data for the M and M3 forecasting competitions (R package).                                                                                                                 <https://cran.r-project.org/package=Mcomp>
+                                                                                                                                                                                                                                  M4comp2018: Data for the M4 forecasting competition (R package).                                                                                                                   <https://github.com/carlanetto/M4comp2018>
+                                                                                                                                                                                                                                  Data for the M4 forecasting competition (csv files).                                                                                                                               <https://github.com/Mcompetitions/M4-methods/tree/master/Dataset>
+                                                                                                                                                                                                                                  Tcomp: Data from the 2010 Tourism forecasting competition (R package)                                                                                                              <https://cran.r-project.org/package=Tcomp>
+                                                                                                                                                                                                                                  Data for the M5 forecasting competition (csv files).                                                                                                                               <https://github.com/Mcompetitions/M5-methods/tree/master/Dataset>
+  §[3.2.3](#Forecasting_for_inventories){reference-type="ref" reference="Forecasting_for_inventories"}. Forecasting for inventories                                                                                               Grupo Bimbo Inventory Demand.                                                                                                                                                      <https://www.kaggle.com/c/grupo-bimbo-inventory-demand>
+  §[3.2.4](#Retail_sales_forecasting){reference-type="ref" reference="Retail_sales_forecasting"}. Forecasting in retail                                                                                                           Rossmann Store Sales.                                                                                                                                                              <https://www.kaggle.com/c/rossmann-store-sales>
+                                                                                                                                                                                                                                  Corporación Favorita Grocery Sales Forecasting.                                                                                                                                    <https://www.kaggle.com/c/favorita-grocery-sales-forecasting>
+                                                                                                                                                                                                                                  Walmart Recruiting -- Store Sales Forecasting.                                                                                                                                     <https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting>
+                                                                                                                                                                                                                                  Walmart Recruiting II: Sales in Stormy Weather.                                                                                                                                    <https://www.kaggle.com/c/walmart-recruiting-sales-in-stormy-weather>
+                                                                                                                                                                                                                                  Store Item Demand Forecasting Challenge.                                                                                                                                           <https://www.kaggle.com/c/demand-forecasting-kernels-only>
+                                                                                                                                                                                                                                  Online Product Sales.                                                                                                                                                              <https://www.kaggle.com/c/online-sales>
+  §[3.2.8](#Predictive_maintenance){reference-type="ref" reference="Predictive_maintenance"}. Predictive maintenance                                                                                                              Robot Execution Failures.                                                                                                                                                          <https://archive.ics.uci.edu/ml/datasets/Robot+Execution+Failures>
+                                                                                                                                                                                                                                  Gearbox Fault Detection.                                                                                                                                                           <https://c3.nasa.gov/dashlink/resources/997/>
+                                                                                                                                                                                                                                  Air Pressure System Failure at Scania Trucks.                                                                                                                                      <https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge>
+                                                                                                                                                                                                                                  Generic, Scalable and Decentralised Fault Detection for Robot Swarms                                                                                                               [https://zenodo.org/record/831471\#\#.WwQIPUgvxPY](https://zenodo.org/record/831471##.WwQIPUgvxPY)
+                                                                                                                                                                                                                                  Wind turbine data (e.g., failures).                                                                                                                                                <https://opendata.edp.com/pages/homepage/>
+  §[3.3](#Economics_and_finance){reference-type="ref" reference="Economics_and_finance"}. Economics and finance                                                                                                                   Two Sigma Financial Modelling Challenge.                                                                                                                                           <https://www.kaggle.com/c/two-sigma-financial-modeling/overview>
+                                                                                                                                                                                                                                  Financial, economic, and alternative data sets, serving investment professionals.                                                                                                  <https://www.quandl.com/>
+  §[3.3.2](#Forecasting_GDP_and_Inflation){reference-type="ref" reference="Forecasting_GDP_and_Inflation"}. Forecasting GDP and Inflation                                                                                         Repository website with Dynare codes and data sets to estimate different DSGE models and use them for forecasting.                                                                 <https://github.com/johannespfeifer/dsge_mod>
+                                                                                                                                                                                                                                  Data set for Macroeconomic variables for US economy.                                                                                                                               <https://fred.stlouisfed.org/>
+                                                                                                                                                                                                                                  Data set for Macroeconomic variables for OECD economy.                                                                                                                             <https://data.oecd.org/>
+  §[3.3.2](#Forecasting_GDP_and_Inflation){reference-type="ref" reference="Forecasting_GDP_and_Inflation"}. Forecasting GDP and Inflation (continued)                                                                             Data set for Macroeconomic variables for EU economy.                                                                                                                               <https://ec.europa.eu/eurostat/data/database>
+  §[3.3.7](#House_Price_Forecasting){reference-type="ref" reference="House_Price_Forecasting"}. House price forecasting                                                                                                           Zillow Prize: Zillow's Home Value Prediction (Zestimate).                                                                                                                          <https://www.kaggle.com/c/zillow-prize-1>
+                                                                                                                                                                                                                                  Sberbank Russian Housing Market.                                                                                                                                                   <https://www.kaggle.com/c/sberbank-russian-housing-market>
+                                                                                                                                                                                                                                  Western Australia Rental Prices.                                                                                                                                                   <https://www.kaggle.com/c/deloitte-western-australia-rental-prices>
+  §[3.3.12](#Forecasting_returns_to_investment_style){reference-type="ref" reference="Forecasting_returns_to_investment_style"}. Forecasting returns to investment style                                                          Algorithmic Trading Challenge.                                                                                                                                                     <https://www.kaggle.com/c/AlgorithmicTradingChallenge>
+  §[3.3.13](#Forecasting_stock_returns){reference-type="ref" reference="Forecasting_stock_returns"}. Forecasting stock returns                                                                                                    The Winton Stock Market Challenge.                                                                                                                                                 <https://www.kaggle.com/c/the-winton-stock-market-challenge>
+                                                                                                                                                                                                                                  The Big Data Combine Engineered by BattleFin.                                                                                                                                      <https://www.kaggle.com/c/battlefin-s-big-data-combine-forecasting-challenge/data>
+  §[3.4](#Energy){reference-type="ref" reference="Energy"}. Energy                                                                                                                                                                VSB Power Line Fault Detection.                                                                                                                                                    <https://www.kaggle.com/c/vsb-power-line-fault-detection>
+                                                                                                                                                                                                                                  ASHRAE -- Great Energy Predictor III                                                                                                                                               <https://www.kaggle.com/c/ashrae-energy-prediction>
+  §[3.4.3](#Load_forecasting){reference-type="ref" reference="Load_forecasting"}. Hybrid machine learning system for short-term load forecasting                                                                                  Global Energy Forecasting Competition 2012 -- Load Forecasting.                                                                                                                    <https://www.kaggle.com/c/global-energy-forecasting-competition-2012-load-forecasting>
+  §[3.4.6](#Wind_Power_orecasting){reference-type="ref" reference="Wind_Power_orecasting"}. Wind power forecasting                                                                                                                Global Energy Forecasting Competition 2012 -- Wind Forecasting.                                                                                                                    <https://www.kaggle.com/c/GEF2012-wind-forecasting>
+  §[3.4.8](#Solar_power_forecasting){reference-type="ref" reference="Solar_power_forecasting"}. Solar power forecasting                                                                                                           Power measurements from a PV power plant and grid of numerical weather predictions.                                                                                                <https://doi.org/10.25747/edf8-m258>
+                                                                                                                                                                                                                                  AMS 2013-2014 Solar Energy Prediction Contest.                                                                                                                                     <https://www.kaggle.com/c/ams-2014-solar-energy-prediction-contest>
+                                                                                                                                                                                                                                  SolarTechLab data set.                                                                                                                                                             <https://ieee-dataport.org/open-access/photovoltaic-power-and-weather-parameters>
+  §[3.4.9](#Long-term_simulation_for_large_electrical_power_systems){reference-type="ref" reference="Long-term_simulation_for_large_electrical_power_systems"}. Long-term simulation for large electrical power systems           Brazilian National Electric Systems Operator (hydro, solar, wind, nuclear and thermal generation data).                                                                            <http://www.ons.org.br/Paginas/resultados-da-operacao/historico-da-operacao/geracao_energia.aspx>
+  §[3.4.10](#Collaborative_forecasting_in_the_energy_sector){reference-type="ref" reference="Collaborative_forecasting_in_the_energy_sector"}. Collaborative forecasting in the energy sector                                     Solar power time series from 44 small-scale PV in Évora, Portugal.                                                                                                                 <https://doi.org/10.25747/gywm-9457>
+                                                                                                                                                                                                                                  Australian Electricity Market Operator (AEMO) 5 Minute Wind Power Data.                                                                                                            <https://doi.org/10.15129/9e1d9b96-baa7-4f05-93bd-99c5ae50b141>
+                                                                                                                                                                                                                                  Electrical energy consumption data from domestic consumers.                                                                                                                        [data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households](data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households)
+                                                                                                                                                                                                                                  Electric vehicles charging data (arrivals, departures, current, voltage, etc.).                                                                                                    <https://eatechnology.com/consultancy-insights/my-electric-avenue/>
+                                                                                                                                                                                                                                  Wind power plant data and numerical weather predictions from CNR (France).                                                                                                         <https://challengedata.ens.fr/challenges/34>
+  §[3.5.2](#Weather_Forecasting){reference-type="ref" reference="Weather_Forecasting"}. Weather forecasting                                                                                                                       How Much Did It Rain?                                                                                                                                                              <https://www.kaggle.com/c/how-much-did-it-rain-ii>
+  §[3.5.3](#Air_quality_forecasting){reference-type="ref" reference="Air_quality_forecasting"}. Air quality forecasting                                                                                                           EMC Data Science Global Hackathon (Air Quality Prediction).                                                                                                                        <https://www.kaggle.com/c/dsg-hackathon/overview>
+  §[3.6](#Social_good){reference-type="ref" reference="Social_good"}. Social good and demographic forecasting                                                                                                                     LANL Earthquake Prediction.                                                                                                                                                        <https://www.kaggle.com/c/LANL-Earthquake-Prediction>
+  §[3.6.1](#Heathcare){reference-type="ref" reference="Heathcare"}. Healthcare                                                                                                                                                    Flu Forecasting.                                                                                                                                                                   <https://www.kaggle.com/c/genentech-flu-forecasting>
+                                                                                                                                                                                                                                  West Nile Virus Prediction.                                                                                                                                                        <https://www.kaggle.com/c/predict-west-nile-virus>
+  §[3.6.2](#Pandemics){reference-type="ref" reference="Pandemics"}. Epidemics and pandemics                                                                                                                                       COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.                                                                     <https://github.com/CSSEGISandData/COVID-19>
+  §[3.6.3](#Forecasting_mortality_data){reference-type="ref" reference="Forecasting_mortality_data"}. Forecasting mortality                                                                                                       Human Mortality Database.                                                                                                                                                          <https://www.mortality.org>
+                                                                                                                                                                                                                                  EuroMOMO.                                                                                                                                                                          <https://www.euromomo.eu/>
+                                                                                                                                                                                                                                  The Economist.                                                                                                                                                                     <https://github.com/TheEconomist/covid-19-excess-deaths-tracker>
+                                                                                                                                                                                                                                  The New York Times.                                                                                                                                                                <https://github.com/Financial-Times/coronavirus-excess-mortality-data>
+  §[3.6.3](#Forecasting_mortality_data){reference-type="ref" reference="Forecasting_mortality_data"}. Forecasting mortality data (continued)                                                                                      The Financial Times.                                                                                                                                                               <https://github.com/nytimes/covid-19-data/tree/master/excess-deaths>
+                                                                                                                                                                                                                                  ANACONDA- Quality assessment of mortality data.                                                                                                                                    <https://crvsgateway.info/anaconda>
+                                                                                                                                                                                                                                  Australian Human Mortality Database.                                                                                                                                               <https://demography.cass.anu.edu.au/research/australian-human-mortality-database>
+                                                                                                                                                                                                                                  Canadian Human Mortality Database.                                                                                                                                                 <http://www.bdlc.umontreal.ca/CHMD/>
+                                                                                                                                                                                                                                  French Human Mortality Database.                                                                                                                                                   <https://frdata.org/fr/french-human-mortality-database>
+  §[3.6.4](#Forecasting_fertility){reference-type="ref" reference="Forecasting_fertility"}. Forecasting fertility                                                                                                                 Human Fertility Database: fertility data for developed countries with complete birth registration based on official vital statistics.                                              <https://www.humanfertility.org/>
+                                                                                                                                                                                                                                  World Fertility Data: UN's collection of fertility data based on additional data sources such as surveys.                                                                          <https://www.un.org/development/desa/pd/data/world-fertility-data>
+  §[3.6.5](#Forecasting_migration){reference-type="ref" reference="Forecasting_migration"}. Forecasting migration                                                                                                                 Integrated Modelling of European Migration (IMEM) Database, with estimates of migration flows between 31 European countries by origin, destination, age and sex, for 2002--2008.   <https://www.imem.cpc.ac.uk/>
+                                                                                                                                                                                                                                  QuantMig data inventory: meta-inventory on different sources of data on migration and its drivers, with European focus.                                                            <https://quantmig.eu/data_inventory/>
+                                                                                                                                                                                                                                  Bilateral international migration flow estimates for 200 countries [@Abel2019-rm].                                                                                                 <https://doi.org/10.1038/s41597-019-0089-3>
+                                                                                                                                                                                                                                  UN World Population Prospects: UN global population estimates and projections, including probabilistic                                                                             <https://population.un.org/wpp/>
+  §[3.8](#Other_applications){reference-type="ref" reference="Other_applications"}. Other applications                                                                                                                            Forecast Eurovision Voting.                                                                                                                                                        <https://www.kaggle.com/c/Eurovision2010>
+                                                                                                                                                                                                                                  Reducing Commercial Aviation Fatalities.                                                                                                                                           <https://www.kaggle.com/c/reducing-commercial-aviation-fatalities>
+                                                                                                                                                                                                                                  Porto Seguro's Safe Driver Prediction.                                                                                                                                             <https://www.kaggle.com/c/porto-seguro-safe-driver-prediction>
+                                                                                                                                                                                                                                  Recruit Restaurant Visitor Forecasting.                                                                                                                                            <https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting>
+                                                                                                                                                                                                                                  Restaurant Revenue Prediction.                                                                                                                                                     <https://www.kaggle.com/c/restaurant-revenue-prediction>
+                                                                                                                                                                                                                                  Coupon Purchase Prediction.                                                                                                                                                        <https://www.kaggle.com/c/coupon-purchase-prediction>
+                                                                                                                                                                                                                                  Bike Sharing Demand                                                                                                                                                                <https://www.kaggle.com/c/bike-sharing-demand>
+                                                                                                                                                                                                                                  Google Analytics Customer Revenue Prediction.                                                                                                                                      <https://www.kaggle.com/c/ga-customer-revenue-prediction>
+                                                                                                                                                                                                                                  Santander Value Prediction Challenge.                                                                                                                                              <https://www.kaggle.com/c/santander-value-prediction-challenge>
+                                                                                                                                                                                                                                  Santander Customer Transaction Predictio.n                                                                                                                                         <https://www.kaggle.com/c/santander-customer-transaction-prediction>
+                                                                                                                                                                                                                                  Acquire Valued Shoppers Challenge                                                                                                                                                  <https://www.kaggle.com/c/acquire-valued-shoppers-challenge>
+                                                                                                                                                                                                                                  Risky Business                                                                                                                                                                     <https://www.kaggle.com/c/risky-business>
+                                                                                                                                                                                                                                  Web Traffic Time Series Forecasting.                                                                                                                                               <https://www.kaggle.com/c/web-traffic-time-series-forecasting>
+                                                                                                                                                                                                                                  A repository of data sets, including time series ones, that can be used for benchmarking forecasting methods in various applications of interest.                                  <https://github.com/awesomedata/awesome-public-dataset>s
+                                                                                                                                                                                                                                  WSDM -- KKBox's Churn Prediction Challenge.                                                                                                                                        <https://www.kaggle.com/c/kkbox-churn-prediction-challenge/overview>
+                                                                                                                                                                                                                                  Homesite Quote Conversion                                                                                                                                                          <https://www.kaggle.com/c/homesite-quote-conversion>
+                                                                                                                                                                                                                                  Liberty Mutual Group: Property Inspection Prediction.                                                                                                                              <https://www.kaggle.com/c/liberty-mutual-group-property-inspection-prediction>
+                                                                                                                                                                                                                                  Liberty Mutual Group -- Fire Peril Loss Cost.                                                                                                                                      <https://www.kaggle.com/c/liberty-mutual-fire-peril>
+                                                                                                                                                                                                                                  A set of more than 490,000 time series (micro, macro, demographic, finance, other) to download.                                                                                    <http://fsudataset.com/>
+  §[3.8](#Other_applications){reference-type="ref" reference="Other_applications"}. Other applications (continued)                                                                                                                A repository of data sets, including time series ones, that can be used for benchmarking forecasting methods in various applications of interest.                                  <https://github.com/awesomedata/awesome-public-datasets>
+  §[3.8.1](#Tourism_demand_forecasting){reference-type="ref" reference="Tourism_demand_forecasting"}. Tourism demand forecasting                                                                                                  TourMIS: Database with annual and monthly tourism time series (e.g., arrivals and bednights) covering European countries, regions, and cities (free registration required).        <https://www.tourmis.info/index_e.html>
+                                                                                                                                                                                                                                  Tourism Forecasting.                                                                                                                                                               [https://www.kaggle.com/c/tourism1; https://www.kaggle.com/c/tourism2](https://www.kaggle.com/c/tourism1; https://www.kaggle.com/c/tourism2)
+  §[3.8.2](#Forecasting_for_airports){reference-type="ref" reference="Forecasting_for_airports"}. Forecasting for aviation                                                                                                        Airline and Airport performance data provided by the U.S. Department of Transportation                                                                                             <https://www.transtats.bts.gov/>
+  §[3.8.3](#Traffic_flow_forecasting){reference-type="ref" reference="Traffic_flow_forecasting"}. Traffic flow forecasting                                                                                                        New York City Taxi Fare Prediction.                                                                                                                                                <https://www.kaggle.com/c/demand-forecasting-kernels-only>
+                                                                                                                                                                                                                                  RTA Freeway Travel Time Prediction                                                                                                                                                 <https://www.kaggle.com/c/RTA>
+                                                                                                                                                                                                                                  ECML/PKDD 15: Taxi Trip Time Prediction.                                                                                                                                           <https://www.kaggle.com/c/pkdd-15-taxi-trip-time-prediction-ii>
+                                                                                                                                                                                                                                  BigQuery-Geotab Intersection Congestion.                                                                                                                                           <https://www.kaggle.com/c/bigquery-geotab-intersection-congestion/overview>
+                                                                                                                                                                                                                                  Traffic volume counts collected by DOT for New York Metropolitan Transportation Council.                                                                                           <https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2014-2019-/ertz-hr4r>
+  §[3.8.5](#Elections_forecasting){reference-type="ref" reference="Elections_forecasting"}. Elections forecasting                                                                                                         New Zealand General Elections -- Official results and statistics.                                                                                                                  <https://www.electionresults.govt.nz>
+                                                                                                                                                                                                                                  Spanish Elections -- Official results and statistics.                                                                                                                              <https://dataverse.harvard.edu/dataverse/SEA>
+  §[3.8.6](#Sports_forecasting){reference-type="ref" reference="Sports_forecasting"}. Sports forecasting                                                                                                                          NFL Big Data Bowl.                                                                                                                                                                 <https://www.kaggle.com/c/nfl-big-data-bowl-2020>
+  §[3.8.9](#Safety_and_security){reference-type="ref" reference="Safety_and_security"}. Forecasting under data integrity attacks                                                                                                  Microsoft Malware Prediction.                                                                                                                                                      <https://www.kaggle.com/c/microsoft-malware-prediction>
+:::
+</div>
+
+[^1]: This subsection was written by Robert L. Winkler (last update on 22-Oct-2021).
+
+[^2]: This subsection was written by Anne B. Koehler (last update on 22-Oct-2021).
+
+[^3]: This subsection was written by Anastasios Panagiotelis (last update on 22-Oct-2021).
+
+[^4]: This subsection was written by Alexander Dokumentov (last update on 22-Oct-2021).
+
+[^5]: This subsection was written by Priyanga Dilini Talagala (last update on 22-Oct-2021).
+
+[^6]: This subsection was written by Luigi Grossi (last update on 22-Oct-2021).
+
+[^7]: This subsection was written by Jethro Browell (last update on 22-Oct-2021).
+
+[^8]: This subsection was written by Juan Ramón Trapero Arenas (last update on 22-Oct-2021).
+
+[^9]: This subsection was written by Vassilios Assimakopoulos (last update on 22-Oct-2021).
+
+[^10]: This subsection was written by Dimitrios Thomakos (last update on 22-Oct-2021).
+
+[^11]: This subsection was written by Philip Hans Franses & Sheik
+    Meeran (last update on 22-Oct-2021).
+
+[^12]: This subsection was written by Bahman Rostami-Tabar (last update on 22-Oct-2021).
+
+[^13]: This subsection was written by Diego J. Pedregal (last update on 22-Oct-2021).
+
+[^14]: This subsection was written by Jakub Bijak (last update on 22-Oct-2021).
+
+[^15]: The demographic literature sometimes makes a distinction between
+    unconditional *forecasts* (or *predictions*) and *projections*,
+    conditional on their underlying assumptions. In this section, we use
+    the former term to refer to statements about the future, and the
+    latter to the result of a numerical exercise of combining
+    assumptions on fertility, mortality and migration in a deterministic
+    model of population renewal.
+
+[^16]: This subsection was written by Gael M. Martin (last update on 22-Oct-2021).
+
+[^17]: This subsection was written by J. James Reade (last update on 22-Oct-2021).
+
+[^18]: This subsection was written by Han Lin Shang (last update on 22-Oct-2021).
+
+[^19]: This subsection was written by Jooyoung Jeon (last update on 22-Oct-2021).
+
+[^20]: This subsection was written by Massimo Guidolin (last update on 22-Oct-2021).
+
+[^21]: This subsection was written by Manuela Pedio (last update on 22-Oct-2021).
+
+[^22]: This subsection was written by Piotr Fiszeder (last update on 22-Oct-2021).
+
+[^23]: This subsection was written by Alessia Paccagnini (last update on 22-Oct-2021).
+
+[^24]: This subsection was written by Andrew B. Martinez (last update on 22-Oct-2021).
+
+[^25]: This subsection was written by Michael P. Clements (last update on 22-Oct-2021).
+
+[^26]: For example, the Federal Reserve Bank of Philadelphia maintain a
+    real-time data set covering a number of US macro-variables, at:
+    https://www.philadelphiafed.org/research-and-data/real-time-center/real-time-data/,
+    and see [@MPC_Crou01].
+
+[^27]: This subsection was written by Mariangela Guidolin (last update on 22-Oct-2021).
+
+[^28]: This subsection was written by Theodore Modis (last update on 22-Oct-2021).
+
+[^29]: This subsection was written by Renato Guseo (last update on 22-Oct-2021).
+
+[^30]: This subsection was written by Ricardo Bessa (last update on 22-Oct-2021).
+
+[^31]: This subsection was written by Pasquale Cirillo (last update on 22-Oct-2021).
+
+[^32]: This subsection was written by David T. Frazier & Gael M. Martin (last update on 22-Oct-2021).
+
+[^33]: This subsection was written by David T. Frazier & Gael M. Martin (last update on 22-Oct-2021).
+
+[^34]: This subsection was written by Feng Li (last update on 22-Oct-2021).
+
+[^35]: This subsection was written by Ulrich Gunter (last update on 22-Oct-2021).
+
+[^36]: This subsection was written by Michał Rubaszek (last update on 22-Oct-2021).
+
+[^37]: This subsection was written by Ross Hollyman (last update on 22-Oct-2021).
+
+[^38]: This subsection was written by David F. Hendry (last update on 22-Oct-2021).
+
+[^39]: This subsection was written by Christoph Bergmeir (last update on 22-Oct-2021).
+
+[^40]: This subsection was written by Devon K. Barrow (last update on 22-Oct-2021).
+
+[^41]: This subsection was written by Alisa Yusupova (last update on 22-Oct-2021).
+
+[^42]: This subsection was written by Ezio Todini (last update on 22-Oct-2021).
+
+[^43]: This subsection was written by Yael Grushka-Cockayne (last update on 22-Oct-2021).
+
+[^44]: This subsection was written by Jennifer L. Castle (last update on 22-Oct-2021).
+
+[^45]: This subsection was written by Xiaoqian Wang (last update on 22-Oct-2021).
+
+[^46]: Available at <https://www.influxdata.com/time-series-database/>
+
+[^47]: Available at <http://opentsdb.net/>
+
+[^48]: Available at <https://oss.oetiker.ch/rrdtool/>
+
+[^49]: Available at <https://code.nsa.gov/timely/>
+
+[^50]: This subsection was written by Thiyanga S. Talagala (last update on 22-Oct-2021).
+
+[^51]: This subsection was written by Yanfei Kang (last update on 22-Oct-2021).
+
+[^52]: This subsection was written by Clara Cordeiro (last update on 22-Oct-2021).
+
+[^53]: max$(X_1,\cdots,X_n)$.
+
+[^54]: This subsection was written by Fernando Luiz Cyrino Oliveira (last update on 22-Oct-2021).
+
+[^55]: This subsection was written by Souhaib Ben Taieb (last update on 22-Oct-2021).
+
+[^56]: This subsection was written by Georgios Sermpinis (last update on 22-Oct-2021).
+
+[^57]: This subsection was written by Tim Januschowski (last update on 22-Oct-2021).
+
+[^58]: For example, contemporary topics in machine learning such as
+    generative adversarial networks can be naturally lifted to
+    forecasting and similarly, more traditional probabilistic machine
+    learning approaches such as Gaussian Processes [@maddix2018deep_TJ].
+    We ignore the important area of Bayesian deep learning [see
+    @wang2016survey_TJ for a survey] entirely here for lack of space.
+
+[^59]: This subsection was written by Evangelos Spiliotis (last update on 22-Oct-2021).
+
+[^60]: This subsection was written by David E. Rapach (last update on 22-Oct-2021).
+
+[^61]: We do not make a sharp distinction between statistical learning
+    and machine learning. For brevity, we use the latter throughout this
+    subsection.
+
+[^62]: This subsection was written by Ioannis Panapakidis (last update on 22-Oct-2021).
+
+[^63]: This subsection was written by Sonia Leva (last update on 22-Oct-2021).
+
+[^64]: This subsection was written by Aris A. Syntetos (last update on 22-Oct-2021).
+
+[^65]: This subsection was written by Mohamed Zied Babai (last update on 22-Oct-2021).
+
+[^66]: This subsection was written by John E. Boylan (last update on 22-Oct-2021).
+
+[^67]: This subsection was written by Konstantinos Nikolopoulos (last update on 22-Oct-2021).
+
+[^68]: This subsection was written by Claudio Carnevale (last update on 22-Oct-2021).
+
+[^69]: This subsection was written by Daniele Apiletti (last update on 22-Oct-2021).
+
+[^70]: This subsection was written by Xiaojia Guo (last update on 22-Oct-2021).
+
+[^71]: This subsection was written by Patrícia Ramos (last update on 22-Oct-2021).
+
+[^72]: This subsection was written by Fotios Petropoulos (last update on 22-Oct-2021).
+
+[^73]: This subsection was written by Nikolaos Kourentzes (last update on 22-Oct-2021).
+
+[^74]: This subsection was written by Jose M. Pavía (last update on 22-Oct-2021).
+
+[^75]: This subsection was written by Nigel Harvey (last update on 22-Oct-2021).
+
+[^76]: This subsection was written by Paul Goodwin (last update on 22-Oct-2021).
+
+[^77]: This subsection was written by Shari De Baets (last update on 22-Oct-2021).
+
+[^78]: This subsection was written by Konstantia Litsiou (last update on 22-Oct-2021).
+
+[^79]: This subsection was written by M. Sinan Gönül (last update on 22-Oct-2021).
+
+[^80]: This subsection was written by Dilek Önkal (last update on 22-Oct-2021).
+
+[^81]: This subsection was written by Anastasios Panagiotelis (last update on 22-Oct-2021).
+
+[^82]: https://viz.covid19forecasthub.org/
+
+[^83]: https://business-forecast-lab.com/
+
+[^84]: This subsection was written by Stephan Kolassa (last update on 22-Oct-2021).
+
+[^85]: This subsection was written by Yael Grushka-Cockayne (last update on 22-Oct-2021).
+
+[^86]: This subsection was written by Florian Ziel (last update on 22-Oct-2021).
+
+[^87]: This subsection was written by Thordis Thorarinsdottir (last update on 22-Oct-2021).
+
+[^88]: This subsection was written by Victor Richmond R. Jose (last update on 22-Oct-2021).
+
+[^89]: This subsection was written by Fotios Petropoulos (last update on 22-Oct-2021).
+
+[^90]: This subsection was written by Pierre Pinson (last update on 22-Oct-2021).
+
+[^91]: This subsection was written by Michael Gilliland (last update on 22-Oct-2021).
+
+[^92]: This subsection was written by Yanfei Kang (last update on 22-Oct-2021).
+
+[^93]: This subsection was written by Paul Goodwin (last update on 22-Oct-2021).
+
+[^94]: This subsection was written by John E. Boylan (last update on 22-Oct-2021).
+
+[^95]: This subsection was written by Stephan Kolassa & Patrícia Ramos (last update on 22-Oct-2021).
+
+[^96]: This subsection was written by Nikolaos Kourentzes (last update on 22-Oct-2021).
+
+[^97]: This subsection was written by Sheik Meeran (last update on 22-Oct-2021).
+
+[^98]: This subsection was written by Mohamed Zied Babai (last update on 22-Oct-2021).
+
+[^99]: This subsection was written by Juan Ramón Trapero Arenas (last update on 22-Oct-2021).
+
+[^100]: This subsection was written by Aris A. Syntetos (last update on 22-Oct-2021).
+
+[^101]: This subsection was written by Michael P. Clements (last update on 22-Oct-2021).
+
+[^102]: See, for example, [@MPC_Rose52], [@MPC_Shep94], [@MPC_KSC-98],
+    [@Diebold1998-ti_ET] and [@Berkowitz_2001_AY].
+
+[^103]: This subsection was written by Alessia Paccagnini (last update on 22-Oct-2021).
+
+[^104]: This subsection was written by Jennifer L. Castle (last update on 22-Oct-2021).
+
+[^105]: There are many relevant theories based on microfoundations,
+    including search and matching, loss of skills, efficiency wages, and
+    insider-outsider models, see [@JLC_LNJ91] for a summary.
+
+[^106]: See [@JLC_HendryDoornikModelDiscovery] for an approach to
+    jointly tackling all of these issues.
+
+[^107]: This subsection was written by Andrew B. Martinez (last update on 22-Oct-2021).
+
+[^108]: See
+    <https://obr.uk/forecasts-in-depth/the-economy-forecast/potential-output-and-the-output-gap>.
+    (Accessed: 2020-09-05)
+
+[^109]: This subsection was written by Diego J. Pedregal (last update on 22-Oct-2021).
+
+[^110]: This subsection was written by Massimo Guidolin & Manuela Pedio (last update on 22-Oct-2021).
+
+[^111]: This subsection was written by Alisa Yusupova (last update on 22-Oct-2021).
+
+[^112]: For instance, the International Monetary Fund recently
+    established the Global Housing Watch, the Globalisation and Monetary
+    Policy Institute of the Federal Reserve Bank of Dallas initiated a
+    project on monitoring international property price dynamics, and the
+    UK Housing Observatory initiated a similar project for the UK
+    national and regional housing markets.
+
+[^113]: For a comparison of alternative text-based measures of economic
+    uncertainty see @Kapetanios2020_AY.
+
+[^114]: This subsection was written by Michał Rubaszek (last update on 22-Oct-2021).
+
+[^115]: This subsection was written by Piotr Fiszeder (last update on 22-Oct-2021).
+
+[^116]: This subsection was written by Feng Li (last update on 22-Oct-2021).
+
+[^117]: This subsection was written by Georgios Sermpinis (last update on 22-Oct-2021).
+
+[^118]: https://www.eurekahedge.com/Indices/IndexView/Eurekahedge/683/Eurekahedge-AI-Hedge-fund-Index
+    (Accessed: 2020-09-01)
+
+[^119]: This subsection was written by Ross Hollyman (last update on 22-Oct-2021).
+
+[^120]: The website of Kenneth French is an excellent source of data on
+    investment style factor data and research.
+    http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
+
+[^121]: This subsection was written by David E. Rapach (last update on 22-Oct-2021).
+
+[^122]: This subsection was written by Philip Hans Franses (last update on 22-Oct-2021).
+
+[^123]: This subsection was written by Christoph Bergmeir & Evangelos
+    Spiliotis (last update on 22-Oct-2021).
+
+[^124]: This subsection was written by Luigi Grossi & Florian Ziel (last update on 22-Oct-2021).
+
+[^125]: This subsection was written by Ioannis Panapakidis (last update on 22-Oct-2021).
+
+[^126]: This subsection was written by Xiaoqian Wang (last update on 22-Oct-2021).
+
+[^127]: This subsection was written by Mariangela Guidolin (last update on 22-Oct-2021).
+
+[^128]: This subsection was written by Jethro Browell (last update on 22-Oct-2021).
+
+[^129]: This subsection was written by Jooyoung Jeon (last update on 22-Oct-2021).
+
+[^130]: This subsection was written by Sonia Leva (last update on 22-Oct-2021).
+
+[^131]: This subsection was written by Fernando Luiz Cyrino Oliveira (last update on 22-Oct-2021).
+
+[^132]: This subsection was written by Ricardo Bessa (last update on 22-Oct-2021).
+
+[^133]: This section was written by David F. Hendry (last update on 22-Oct-2021).
+
+[^134]: This subsection was written by Thordis Thorarinsdottir (last update on 22-Oct-2021).
+
+[^135]: This subsection was written by Claudio Carnevale (last update on 22-Oct-2021).
+
+[^136]: This subsection was written by Ezio Todini (last update on 22-Oct-2021).
+
+[^137]: This section was written by Bahman Rostami-Tabar (last update on 22-Oct-2021).
+
+[^138]: This subsection was written by Konstantinos Nikolopoulos &
+    Thiyanga S. Talagala (last update on 22-Oct-2021).
+
+[^139]: This subsection was written by Clara Cordeiro & Han Lin Shang (last update on 22-Oct-2021).
+
+[^140]: This subsection was written by Joanne Ellison (last update on 22-Oct-2021).
+
+[^141]: This subsection was written by Jakub Bijak (last update on 22-Oct-2021).
+
+[^142]: This subsection was written by Pasquale Cirillo (last update on 22-Oct-2021).
+
+[^143]: This subsection was written by Vassilios Assimakopoulos (last update on 22-Oct-2021).
+
+[^144]: This subsection was written by Tim Januschowski (last update on 22-Oct-2021).
+
+[^145]: This subsection was written by Shari De Baets, M. Sinan Gönül, &
+    Nigel Harvey (last update on 22-Oct-2021).
+
+[^146]: This subsection was written by Dilek Önkal (last update on 22-Oct-2021).
+
+[^147]: This subsection was written by Victor Richmond R. Jose (last update on 22-Oct-2021).
+
+[^148]: This subsection was written by Ulrich Gunter (last update on 22-Oct-2021).
+
+[^149]: This subsection was written by Xiaojia Guo (last update on 22-Oct-2021).
+
+[^150]: This subsection was written by Alexander Dokumentov (last update on 22-Oct-2021).
+
+[^151]: This subsection was written by Devon K. Barrow (last update on 22-Oct-2021).
+
+[^152]: This subsection was written by Jose M. Pavía (last update on 22-Oct-2021).
+
+[^153]: This subsection was written by J. James Reade (last update on 22-Oct-2021).
+
+[^154]: This subsection was written by Konstantia Litsiou (last update on 22-Oct-2021).
+
+[^155]: This subsection was written by Renato Guseo (last update on 22-Oct-2021).
+
+[^156]: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
+    (Accessed: 2020-09-01)
+
+[^157]: This subsection was written by Priyanga Dilini Talagala (last update on 22-Oct-2021).
+
+[^158]: This subsection was written by Dimitrios Thomakos (last update on 22-Oct-2021).
+
+[^159]: This subsection was written by Daniele Apiletti (last update on 22-Oct-2021).
+
+[^160]: This subsection was written by Theodore Modis (last update on 22-Oct-2021).
+
+[^161]: This subsection was written by Len Tashman (last update on 22-Oct-2021).
+
+[^162]: This subsection was written by Spyros Makridakis (last update on 22-Oct-2021).

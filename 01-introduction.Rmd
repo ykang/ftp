@@ -1,0 +1,110 @@
+Introduction[^1] {#introduction}
+================
+
+Forecasting has come a long way since early humans looked at the sky to
+see if the weather would be suitable for hunting, and even since hunters
+could get a forecast such as "a high of 40 with a chance of rain". Now a
+hunter can look at a smartphone to instantly get hour-by-hour forecasts
+of temperatures and probabilities of rain at multiple locations as well
+as videos of maps showing forecasted weather patterns over the coming
+hours. Tailored forecasts of increasing sophistication can be generated
+to inform important decisions of many different types by managers,
+public officials, investors, and other decision makers.
+
+In the 15 years since the excellent review paper by
+@Gooijer2006-hl_GS, the field of forecasting has seen amazing growth
+in both theory and practice. Thus, this review is both timely and broad,
+ranging from the highly theoretical to the very applied.
+
+Rapid advances in computing have enabled the analysis of larger and more
+complex data sets and stimulated interest in analytics and data science.
+As a result, the forecaster's toolbox of methods has grown in size and
+sophistication. Computer science has led the way with methods such as
+neural networks and other types of machine learning, which are getting a
+great deal of attention from forecasters and decision makers. Other
+methods, including statistical methods such as Bayesian forecasting and
+complex regression models, have also benefited from advances in
+computing. And improvements have not been limited to those based on
+computing advances. For example, the literature on judgmental
+forecasting has expanded considerably, driven largely by the "wisdom of
+crowds" notion.
+
+The combining, or aggregation, of forecasts, which is not a new idea,
+has received increased attention in the forecasting community recently
+and has been shown to perform well. For example, the top-performing
+entries in the M4 Competition run by Spyros Makridakis combined
+forecasts from multiple methods. Many models have been developed to
+forecast the number of deaths that will be caused by COVID-19, and
+combining the forecasts makes sense because it is hard to know which one
+will be the most accurate. It is consistent with Bayesian ideas since it
+can be viewed as updating, with each individual forecast added to the
+combined forecast (also called an ensemble) contributing some new
+information.
+
+Despite the excitement surrounding these new developments, older methods
+such as ARIMA and exponential smoothing are still valuable too.
+Exponential smoothing, along with other simple approaches, are quite
+robust and not as prone to overfitting as more complex methods. In that
+sense, they are useful not only on their own merits, but as part of an
+ensemble that also includes more sophisticated methods. Combined
+forecasts are more valuable if the forecasts come from methods that are
+diverse so that their forecast errors are not highly correlated.
+
+The conditions leading to larger, more sophisticated toolboxes for
+forecasters have also led to larger data sets with denser grids and
+improved models in areas of application. This has happened with models
+of the atmosphere, which are important in formulating improved weather
+forecasts. More detailed information about customers and their
+preferences allows the development of improved models of customer
+behaviour for managers. In turn, forecasting methods that can handle all
+of that information quickly are valuable for decision-making purposes.
+This process has spurred an explosion in trying to gather information on
+the internet.
+
+Risk is an important consideration in decision making, and probability
+forecasts can quantify such risks. Theoretical work in probability
+forecasting has been active for some time, and decision makers in many
+areas of practice have embraced the use of probability forecasts. In the
+Bayesian approach, inferences and forecasts are probabilistic in nature,
+and probability forecasts can be generated in many other ways too.
+
+The U.S. National Weather Service began issuing probabilities of
+precipitation to the public in the 1960s. Yet extensive widespread use
+and dissemination of probabilities has only developed since the turn of
+the century. Now probability forecasts are increasingly communicated to
+the public and used as inputs in decision making. Nate Silver's
+[FiveThirtyEight.com](https://fivethirtyeight.com/) report gives probability forecasts for elections,
+medicine and science, sporting events, economic measures, and many other
+areas, often looking at multiple forecasting models individually and
+also combining them.
+
+It is natural for people to desire certainty. When probability forecasts
+of precipitation were first disseminated widely, many were very
+sceptical about them, with some accusing the forecasters of hedging and
+saying "Don't give me a probability. I want to know if it's going to
+rain or not". Of course, point forecasts often are given along with
+probability forecasts. The current frequent exposure to probabilities
+helps the general public better understand, appreciate, and feel more
+comfortable with them. And the current situation in the world with
+COVID-19, increases in huge fires, big storms, political polarisation,
+international conflicts, etc., should help them realise that we are
+living in an age with huge uncertainties, and forecasts that quantify
+these uncertainties can be important. Where possible, visualisation can
+help, as indicated by the saying that a picture is worth a thousand
+words. Examples are the cones of uncertainty on maps in forecasts of the
+speed, severity, and future path of hurricanes, and the time line of the
+probability of a team winning a game, updated quickly after each play.
+
+Put simply, this is an exciting time for the field of forecasting with
+all of the new theoretical developments and forecasting applications in
+practice. Forecasting is so ubiquitous that it's not possible to cover
+all of these developments in a single article. This article manages to
+cover quite a few, and a good variety. Using short presentations for
+each one from an expert "close to the ground" on that theoretical topic
+or field of practice works well to provide a picture of the current
+state of the art in forecasting theory and practice.
+
+
+
+[^1]: This subsection was written by Robert L. Winkler.
+
