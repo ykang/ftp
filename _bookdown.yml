@@ -15,3 +15,4 @@ rmd_files: ["index.Rmd"
 before_chapter_script: ["before-each-chapter.R"]
 output_dir: "public"
 delete_merged_file: true
+edit: https://github.com/ykang/ftp/edit/main/%s
