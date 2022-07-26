@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Forecasting: theory and Practice</a></li>
+        <li><a href="./">Forecasting: theory and practice</a></li>
       after: |
         <li><a href="https://bookdown.org" target="blank">Published by bookdown</a></li>
   includes:

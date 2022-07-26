@@ -15,7 +15,7 @@ twitter-handle: fotpetr
 cover-image: ftp.jpg
 ---
 
-# Forefront {#Forefront .unnumbered}
+# Foreword {#Foreword .unnumbered}
 
 <!-- <p style='float:right; width:50%; margin-left:20px;'> -->
 <!--   <img src="ftp.jpg" width='100%'> -->
@@ -23,9 +23,11 @@ cover-image: ftp.jpg
 
 Welcome to our online version of the review paper [ "Forecasting: theory and practice"](https://doi.org/10.1016/j.ijforecast.2021.11.001), which was last updated on `r format(Sys.time(), "%e %B %Y")`.
 
-This review paper was written by 80 academics and practitioners across 22 countries and offers an encyclopedic overview of the current state of the forecasting field. This paper was originally published at the International Journal of Forecasting and is available under a Creative Commons license.
+This review paper was written by 80 academics and practitioners across 22 countries and offers an encyclopedic overview of the current state of the forecasting field. This paper was originally published at the International Journal of Forecasting and is available under a Creative Commons license. 
+<!-- The style of this online version is based on the `style.css` from https://otexts.com/fppcn/. -->
 
 This is a live project and, where appropriate, we aim to update and enhance existing entries but also add new entries. If you would like to contribute, either by adding a new entry or by updating an existing entry, please contact [Fotios Petropoulos](mailto:fotios@bath.edu). 
+
 
 <br>
 <br>
