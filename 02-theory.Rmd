@@ -4,6 +4,8 @@ Theory {#theory}
 Introduction to forecasting theory[^2] {#introduction_to_the_theory_of_forecasting}
 --------------------------------------
 
+I do some changes
+
 The theory of forecasting is based on the premise that current and past
 knowledge can be used to make predictions about the future. In
 particular for time series, there is the belief that it is possible to
