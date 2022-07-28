@@ -5486,14 +5486,9 @@ point, interval and pHDR forecasts.
 
 There are many common point forecast error measures (PFEMs), e.g., the
 mean squared error (MSE), mean absolute error (MAE), mean absolute
-scaled error (MASE), mean absolute percentage error (MAPE) or many
-others [see section 3.4 in @hyndman2018Forecasting_CB]. Which one is
-most appropriate for our situation, or should we even use multiple
-different PFEMs?
+scaled error (MASE), mean absolute percentage error (MAPE), symmetric Mean Absolute Percentage Error (sMAPE), the quantile score or pinball loss, or many
+others [see section 3.4 in @hyndman2018Forecasting_CB] or [sections 5.8 and 5.9 in @HyndmanAthanasopoulos2021-09-27].
 
-There are many common point forecast error measures (PFEMs), e.g., the
-MSE, MAE, MASE, (s)MAPE, the quantile score or pinball loss or many
-others [e.g., sections 5.8 and 5.9 in @HyndmanAthanasopoulos2021-09-27].
 Assuming $n$ historical periods with observations $y_1, \dots, y_n$ and
 a forecasting horizon $H$ with observations $y_{n+1}, \dots, y_{n+H}$
 and point forecasts $f_{n+1}, \dots, f_{n+H}$, we have:
@@ -5503,8 +5498,9 @@ $$\begin{gathered}
     \text{MASE} = \frac{\sum_{t=n+1}^{n+H}|y_t-f_t|}{\sum_{t=2}^n|y_t-y_{t-1}|} \\
     \text{MAPE} = \sum_{t=n+1}^{n+H}\frac{|y_t-f_t|}{y_t}, \quad
     \text{sMAPE} = \sum_{t=n+1}^{n+H}\frac{|y_t-f_t|}{\frac{1}{2}(y_t+f_t)} \\
-    Q_\alpha = \sum_{t=n+1}^{n+H}(1-\alpha)(f_t-y_t)1_{y_t<f_t} + \alpha(y_t-f_t)1_{y_t \geq f_t}.\end{gathered}$$
+    Q_p = \sum_{t=n+1}^{n+H}(1-p)(f_t-y_t)1_{y_t<f_t} + p(y_t-f_t)1_{y_t \geq f_t}.\end{gathered}$$
 
+Which one is most appropriate for our situation, or should we even use multiple different PFEMs?
 Let us take a step back. Assume we have a full density forecast and wish
 to "condense" it to a point forecast that will minimise some PFEM in
 expectation. The key observation is that *different PFEMs will be
@@ -5530,7 +5526,7 @@ forecast* [@Kolassa2020_SK].
 
 We note that intermittent demand (see
 §[2.8](#Forecasting_for_intermittent_demands_and_count_data){reference-type="ref"
-reference="Forecasting_for_intermittent_demands_and_count_data"})
+reference="Forecasting_for_intermittent_demands_and_count_data"} and [@Boylan2021-fo_ASJBZB])
 poses specific challenges. On the one hand, the MAPE is undefined if
 there are zeros in the actuals. On the other hand, the point forecasts
 minimising different PFEMs will be very different. For instance, the
