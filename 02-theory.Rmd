@@ -2036,8 +2036,7 @@ self-organisation, complex adaptive systems, autopoiesis, and other such
 academic formulations, all ensue as special cases [@Modis1997-rf].
 
 Each S curve has its own life cycle, undergoing good and bad "seasons"
-(see Figure [1](#fig:modistheory1){reference-type="ref"
-reference="fig:modistheory1"}). A large set of behaviours have been
+(see Figure \@ref(fig:modistheory1). A large set of behaviours have been
 tabulated, each one best suited for a particular season [@Modis1998-ci].
 Becoming conservative -- seeking no change -- is appropriate in the
 summer when things work well. But excellence drops in second place
@@ -2059,8 +2058,7 @@ Focusing on *what* to do is appropriate in spring, whereas in fall the
 emphasis shifts to the *how*. For example, the evolution of classical
 music followed a large-timeframe S curve beginning in the fifteenth
 century and reaching a ceiling in the twentieth century; see Figure
-[2](#fig:modistheory2){reference-type="ref"
-reference="fig:modistheory2"} [@Modis2013-to]. In Bach's time
+\@ref(fig:modistheory2) [@Modis2013-to]. In Bach's time
 composers were concerned with *what* to say. The value of their music is
 in its architecture and as a consequence it can be interpreted by any
 instrument, even by simple whistling. But two hundred years later
@@ -2076,8 +2074,7 @@ and would rapidly catch up with each excursion/innovation. But today the
 curve has flattened and composers are given limited space. If they make
 an innovation and find themselves above the curve, there won't be any
 time in the future when the public will appreciate their work; see
-Figure [3](#fig:modistheory3){reference-type="ref"
-reference="fig:modistheory3"} [@Modis2007-ur]. On the other hand, if
+Figure \@ref(fig:modistheory3) [@Modis2007-ur]. On the other hand, if
 they don't innovate, they will not be saying anything new. In either
 case today's composers will not be credited with an achievement.
 
@@ -5521,12 +5518,12 @@ forecast* [@Kolassa2020_SK].
 -   The hinge/tick/pinball $Q_p$ loss is minimised by the appropriate
     $p$-quantile [@Gneiting2011_SK].
 
--   In general, there is no loss function that is minimised by the mode
+-   In general, there is no lossthe quantile score or pinball lo function that is minimised by the mode
     [@Heinrich2014_SK].
 
-We note that intermittent demand (see
+We note that intermittent demand [see
 §[2.8](#Forecasting_for_intermittent_demands_and_count_data){reference-type="ref"
-reference="Forecasting_for_intermittent_demands_and_count_data"} and @Boylan2021-fo_ASJBZB)
+reference="Forecasting_for_intermittent_demands_and_count_data"} and @Boylan2021-fo_ASJBZB]
 poses specific challenges. On the one hand, the MAPE is undefined if
 there are zeros in the actuals. On the other hand, the point forecasts
 minimising different PFEMs will be very different. For instance, the
