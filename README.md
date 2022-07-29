@@ -1,6 +1,6 @@
 # ftp
 
-Welcome to our online version of the review paper [ "Forecasting: theory and practice"](https://doi.org/10.1016/j.ijforecast.2021.11.001), which was last updated on `r format(Sys.time(), "%e %B %Y")`.
+Welcome to our online version of the review paper [ "Forecasting: theory and practice"](https://doi.org/10.1016/j.ijforecast.2021.11.001).
 
 This review paper was written by 80 academics and practitioners across 22 countries and offers an encyclopedic overview of the current state of the forecasting field. This paper was originally published at the International Journal of Forecasting and is available under a Creative Commons license.
 
