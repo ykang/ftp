@@ -394,7 +394,9 @@ marketing, purchasing, distribution and labour force. Inaccurate
 forecasts lead to unnecessary costs and poor customer satisfaction.
 Inventories should be neither too high (to avoid waste and extra costs
 of storage and labour force), nor too low (to prevent stock-outs and
-lost sales, [@Ma2017_PR]).
+lost sales, [@Ma2017_PR]). A comprehensive review of forecasting in
+retail was given by [@FildesMaKolassa2019_SK], with an appendix
+covering the COVID pandemic in [@FildesKolassaMa-postscript].
 
 Forecasting retail demand happens in a three-dimensional space
 [@Syntetos2016-wd_PG]: the position in the supply chain hierarchy
@@ -424,9 +426,12 @@ method [@Croston1972-zw_ASJBZB], the Syntetos-Boylan approximation [SBA;
 all introduced in
 §[2.8.1](#Parametric_methods_for_intermittent_demand_forecasting){reference-type="ref"
 reference="Parametric_methods_for_intermittent_demand_forecasting"}.
-These methods have been used to forecast sales of spare parts in
-automotive and aerospace industries but have not yet been evaluated in
-the retail context.
+These methods were originally proposed to forecast sales of spare parts in
+automotive and aerospace industries.
+Intermittent demand forecasting methods are starting to be applied to retail demand
+[@Kolassa2016_PR], and the recent M5 competition 
+[@Makridakis2020-wq; @Makridakis2020-bj]
+will undoubtedly spur further research in this direction.
 
 Univariate forecasting models are the most basic methods retailers may
 use to forecast demand. They range from simple methods such as simple
@@ -437,15 +442,21 @@ reference="Statistical_and_econometric_models"}). These are
 particularly appropriate to forecast demand at higher aggregation levels
 [@Ramos15_PR; @Ramos16_PR]. The main advantage of linear causal methods
 such as multiple linear regression is to allow the inclusion of external
-effects discussed above. There is no clear evidence yet that nonlinear
-models and novel machine learning methods can improve forecast accuracy
-[@FildesMaKolassa2019_SK].
+effects discussed above. Simple methods were for a long time found to be
+superior to more complex and Machine Learning methods 
+[@FildesMaKolassa2019_SK], until the M5 competition
+[@Makridakis2020-wq; @Makridakis2020-bj]
+showed that ML methods, in particular Gradient Boosting, could indeed
+outperform them. However, simple methods making due allowance for demand
+drivers as listed above still have the advantage of being easier to interpret
+and simpler to care for, so they will continue to have a place in retail forecasting.
 
 To be effective, point estimates should be combined with quantile
 predictions or prediction intervals for determining safety stock amounts
 needed for replenishment. However, to the best of our knowledge this is
 an under-investigated aspect of retail forecasting
-[@Taylor2007_PR; @Kolassa2016_PR].
+[@Taylor2007_PR; @Kolassa2016_PR], although recent research is starting to
+address this issue [@HOELTGEBAUM2021715].
 
 The online channel accounts for an ever-increasing proportion of retail
 sales and poses unique challenges to forecasting, beyond the
