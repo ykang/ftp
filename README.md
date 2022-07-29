@@ -11,8 +11,7 @@ This is a live project and, where appropriate, we aim to update and enhance exis
 Fotios Petropoulos - Editor <br>
 Yanfei Kang - Managing Editor <br>
 Feng Li - Deputy Managing Editor <br>
-<br>
-`r format(Sys.time(), "%B %Y")`
+July 2022
 
 ***
 
