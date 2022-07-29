@@ -5526,7 +5526,7 @@ forecast* [@Kolassa2020_SK].
 
 We note that intermittent demand (see
 §[2.8](#Forecasting_for_intermittent_demands_and_count_data){reference-type="ref"
-reference="Forecasting_for_intermittent_demands_and_count_data"} and [@Boylan2021-fo_ASJBZB])
+reference="Forecasting_for_intermittent_demands_and_count_data"} and @Boylan2021-fo_ASJBZB)
 poses specific challenges. On the one hand, the MAPE is undefined if
 there are zeros in the actuals. On the other hand, the point forecasts
 minimising different PFEMs will be very different. For instance, the

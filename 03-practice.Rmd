@@ -394,9 +394,13 @@ marketing, purchasing, distribution and labour force. Inaccurate
 forecasts lead to unnecessary costs and poor customer satisfaction.
 Inventories should be neither too high (to avoid waste and extra costs
 of storage and labour force), nor too low (to prevent stock-outs and
-lost sales, [@Ma2017_PR]). A comprehensive review of forecasting in
-retail was given by [@FildesMaKolassa2019_SK], with an appendix
-covering the COVID pandemic in [@FildesKolassaMa-postscript].
+lost sales [@Ma2017_PR]). A comprehensive review of forecasting in
+retail was given by @FildesMaKolassa2019_SK, with an appendix
+covering the COVID pandemic in @FildesKolassaMa-postscript.
+
+```{r RetailForecastingHierarchy, echo=FALSE, fig.cap="Retail forecasting hierarchy."}
+knitr::include_graphics("figures/Retail_Forecasting_Hierarchy.png")
+``` 
 
 Forecasting retail demand happens in a three-dimensional space
 [@Syntetos2016-wd_PG]: the position in the supply chain hierarchy
@@ -1081,8 +1085,7 @@ has undergone large historical shifts with productivity growth averaging
 around 1% between 1800-1950 followed by an increase in the average
 annual growth to 3% between 1950-1975. Since the mid-1970's productivity
 growth has gradually declined in many developed economies; see panel B
-of Figure [6](#fig:ProdFig1ABM){reference-type="ref"
-reference="fig:ProdFig1ABM"}. In the decade since 2009, 2% annual
+of Figure \@ref(fig:ProdFig1ABM). In the decade since 2009, 2% annual
 productivity growth was an upper bound for most G7 countries.
 
 <!-- ![(\#fig:ProdFig1ABM) Productivity Growth (Output per total hours worked). Sources: Bank of
