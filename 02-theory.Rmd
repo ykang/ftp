@@ -5518,7 +5518,7 @@ forecast* [@Kolassa2020_SK].
 -   The hinge/tick/pinball $Q_p$ loss is minimised by the appropriate
     $p$-quantile [@Gneiting2011_SK].
 
--   In general, there is no lossthe quantile score or pinball lo function that is minimised by the mode
+-   In general, there is no loss that is minimised by the mode
     [@Heinrich2014_SK].
 
 We note that intermittent demand [see
@@ -5528,8 +5528,9 @@ poses specific challenges. On the one hand, the MAPE is undefined if
 there are zeros in the actuals. On the other hand, the point forecasts
 minimising different PFEMs will be very different. For instance, the
 conditional median (minimising the MAE) may well be a flat zero, while
-the conditional mean (minimising the MSE) will usually be nonzero. Our
-forecasting algorithm may not output an explicit density forecast. It is
+the conditional mean (minimising the MSE) will usually be nonzero.
+
+Our forecasting algorithm may not output an explicit density forecast. It is
 nevertheless imperative to think about which functional of the implicit
 density we want to elicit [@Gneiting2011a_SK], and tailor our error
 measure -- and forecasting algorithm! -- to it. It usually makes no
