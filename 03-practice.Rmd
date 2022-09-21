@@ -56,21 +56,18 @@ process waste.
 
 Starting with a naive forecast, FVA analysis seeks to determine whether
 each subsequent step in the process improves upon the prior steps. The
-"stairstep report" of Table [1](#tab:FVA){reference-type="ref"
-reference="tab:FVA"} is a familiar way of summarising results, as in
+"stairstep report" of Table \@ref(tab:FVA) is a familiar way of summarising results, as in
 this example from Newell Rubbermaid [@Schubert2011-ie_MG].
 
-::: {#tab:FVA}
-  ---------------------- ----------------------- ------------------- -------------------------
-     **Process Step**     **Forecast accuracy**   **FVA vs. Naive**   **FVA vs. Statistical**
-                              (100%$-$MAPE)                          
-      Naive forecast               60%                               
-   Statistical forecast            65%                   5%          
-    Adjusted forecast              62%                   2%                     -3%
-  ---------------------- ----------------------- ------------------- -------------------------
 
-  : Table 1: Stairstep report showing FVA results.
-:::
+```{r FVA,echo=FALSE}
+df <- rbind(
+  c("Process Step",  "Forecast accuracy (100%$-$MAPE)", "FVA vs. Naive", "FVA vs. Statistical"),
+  c("Naive forecast", "60%","",""),			
+  c("Statistical forecast",	"65%", "5%",	""),
+  c("Adjusted forecast",	"62%", "2%",	"-3%"))
+knitr::kable(df,format='pandoc',booktabs=TRUE,caption="Stairstep report showing FVA results.")
+```
 
 Here, averaged across all products, naive (random walk) achieved
 forecast accuracy of 60%. The company's statistical forecast delivered
@@ -4946,6 +4943,35 @@ produced lookup tables and graphs for determining the uncertainties
 expected on the three parameters of the logistic equation as a function
 of the range of the S curve populated by data, the error per data point,
 and the confidence level required.
+
+But a somewhat subjective argument can help us establish an **upper limit** to the expected final ceiling of a natural-growth process that grows along an S curve. During the very early stages an S curve is identical to an exponential curve. In order to be able to discern an S curve the growth process must proceed to the level where the pattern *unambiguously* differs from a simple exponential [@modis2013long]. Let us try to see at what time a logistic function deviates from an exponential in a significant way (see Figure \@ref(fig:modisdivergence)). Table \@ref(tab:modisdeviation) quantifies the deviation between the logistic and the corresponding exponential pattern as a fraction of the logistic's level of completion. By "corresponding" exponential I mean the limit of $X(t)$ as $t \rightarrow -\infty$.
+$$X(t) = \frac{M}{1 + e^{-\alpha(t-t_0)}}.$$
+
+```{r modisdivergence, echo=FALSE, fig.cap="The construction of a theoretical S curve (gray line) and the exponential (thin black line) it reduces to as time goes backward. The big dotted circle points out the time when the deviation becomes important. The formulae used are shown in the graph."}
+knitr::include_graphics("figures/modis_divergence.png")
+```
+
+In Table \@ref(tab:modisdeviation), we appreciate the size of the deviation between exponential and logistic patterns as a function of how much the logistic has been completed. Obviously beyond a certain point the difference becomes flagrant. When exactly this happens is subject to judgment. Table  \@ref(tab:modisdeviation) helps decision makers quantitatively to make up their mind. Most will agree that at least 15\% deviation between exponential and S-curve patterns is needed to make it clear that the two processes can no longer be confused. This happens when the logistic has reached a level of completion of about 13\%. In other words, the future ceiling of an S curve that just begins deviating from an exponential pattern is at most 7 times the present level.
+
+```{r modisdeviation,echo=FALSE}
+df <- rbind(
+  c("Deviation",  "Completion level", "", "Deviation", "Completion level"),
+  c("11.1%", "10.0%","","","" ),			
+  c("12.2%",	"10.9%",	"",	"36.8%",	"26.9%"),
+  c("13.5%",	"11.9%",	"",	"40.7%",	"28.9%"),
+  c("15.0%",	"13.0%",  "",	"44.9%",	"31.0%"),
+  c("16.5%",	"14.2%",	"",	"49.7%",	"33.2%"),
+  c("18.3%",	"15.4%",	"",	"54.9%",	"35.4%"),
+  c("20.2%",	"16.8%",	"",	"60.7%",	"37.8%"),
+  c("22.3%",	"18.2%",	"",	"67.0%",	"40.1%"),
+  c("24.7%",	"19.8%",  "",	"74.1%",	"42.6%"),
+  c("27.3%", 	"21.4%",	"",	"81.9%",	"45.0%"),
+  c("30.1%",	"23.1%",  "",	"90.5%",	"47.5%"),
+  c("33.3%",	"25.0%",  "",	"100.0%",	"50.0%"))
+knitr::kable(df,format='pandoc',booktabs=TRUE,caption="The Deviation between exponential and logistic patterns as a function of how much the logistic has been completed.")
+```
+
+A cruder more subjective rule-of-thumb estimation of an upper limit for an S curve can be obtained by exploiting the idea of **infant mortality**.  For a natural-growth process to be describable by an S curve it must have grown beyond infant mortality. Based on the way trees grow we may define infant mortality — the period when a tree seedling is vulnerable to be stepped upon or be eaten by herbivore animals — as 5 to 10 percent of the final size. This puts an upper limit to the final ceiling of the S curve as 10 to 20 times its level at the end of infant mortality.
 
 The third difficulty using the logistic equation comes from the fact
 that no matter what fitting program one uses, the fitted S curve will
