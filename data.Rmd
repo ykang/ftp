@@ -176,7 +176,7 @@ Table A.2: A list of indicative publicly available data sets.
 
 [^27]: This subsection was written by Mariangela Guidolin (last update on 22-Oct-2021).
 
-[^28]: This subsection was written by Theodore Modis (last update on 22-Oct-2021).
+[^28]: This subsection was written by Theodore Modis (last update on 21-Sep-2022).
 
 [^29]: This subsection was written by Renato Guseo (last update on 22-Oct-2021).
 
@@ -295,7 +295,7 @@ Table A.2: A list of indicative publicly available data sets.
 
 [^83]: https://business-forecast-lab.com/
 
-[^84]: This subsection was written by Stephan Kolassa (last update on 22-Oct-2021).
+[^84]: This subsection was written by Stephan Kolassa (last update on 19-Sep-2022).
 
 [^85]: This subsection was written by Yael Grushka-Cockayne (last update on 22-Oct-2021).
 
@@ -317,7 +317,7 @@ Table A.2: A list of indicative publicly available data sets.
 
 [^94]: This subsection was written by John E. Boylan (last update on 22-Oct-2021).
 
-[^95]: This subsection was written by Stephan Kolassa & Patrícia Ramos (last update on 22-Oct-2021).
+[^95]: This subsection was written by Stephan Kolassa & Patrícia Ramos (last update on 29-Jul-2022).
 
 [^96]: This subsection was written by Nikolaos Kourentzes (last update on 22-Oct-2021).
 
@@ -466,7 +466,7 @@ Table A.2: A list of indicative publicly available data sets.
 
 [^159]: This subsection was written by Daniele Apiletti (last update on 22-Oct-2021).
 
-[^160]: This subsection was written by Theodore Modis (last update on 22-Oct-2021).
+[^160]: This subsection was written by Theodore Modis (last update on 21-Sep-2022).
 
 [^161]: This subsection was written by Len Tashman (last update on 22-Oct-2021).
 
