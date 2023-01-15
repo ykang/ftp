@@ -416,7 +416,9 @@ Several factors affect retail sales, which often increase substantially
 during holidays, festivals, and other special events. Price reductions
 and promotions on own and competitors' products, as well as weather
 conditions or pandemics, can also change sales considerably
-[@Huang2019_PR].
+[@Huang2019_PR]. These factors can coincide to increase complexity yet more, 
+like the weather in the days before public holidays having a major impact on 
+customer demand [@ObermairHolzapfelKuhn2023].
 
 Zero sales due to stock-outs or low demand occur very often at the
 SKU $\times$ store level, both at weekly and daily granularity. The most
