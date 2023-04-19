@@ -5540,7 +5540,9 @@ We note that intermittent demand [see
 §[2.8](#Forecasting_for_intermittent_demands_and_count_data){reference-type="ref"
 reference="Forecasting_for_intermittent_demands_and_count_data"} and @Boylan2021-fo_ASJBZB]
 poses specific challenges. On the one hand, the MAPE is undefined if
-there are zeros in the actuals. On the other hand, the point forecasts
+there are zeros in the actuals
+[per @Kolassa2023b, different ways of treating zero actuals can have a major impact on the MAPE and the optimal forecast].
+On the other hand, the point forecasts
 minimising different PFEMs will be very different. For instance, the
 conditional median (minimising the MAE) may well be a flat zero, while
 the conditional mean (minimising the MSE) will usually be nonzero.
